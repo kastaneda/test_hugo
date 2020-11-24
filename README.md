@@ -1,4 +1,11 @@
-Hi there
-========
+Minimal Hugo site
+=================
 
-Nothing here yet.
+ - One page.
+ - One layout.
+ - Config.
+
+How to build it
+---------------
+
+Just run `hugo` in project folder.

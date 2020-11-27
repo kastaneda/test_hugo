@@ -20,3 +20,9 @@ List of my achievements
 
  1. One Markdown file, one layout template, bare minimum reached
  2. Read SASS, convert to CSS and embed it into the page
+
+
+Conclusion
+----------
+
+Wow, it's nice, after all.

@@ -14,3 +14,9 @@ List of my fuckups
  1. White screen of death
  2. ZgotmplZ
 
+
+List of my achievements
+-----------------------
+
+ 1. One Markdown file, one layout template, bare minimum reached
+ 2. Read SASS, convert to CSS and embed it into the page

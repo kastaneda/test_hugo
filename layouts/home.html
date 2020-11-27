@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>{{ .Title }}</title>
-  <style>
-{{ $style := resources.Get "style.sass" | resources.ToCSS }}
+    <style>
+{{ $style := resources.Get "style.sass" | resources.ToCSS | resources.Minify -}}
 {{ $style.Content | safeCSS }}
-     </style>
+    </style>
   </head>
   <body>
 

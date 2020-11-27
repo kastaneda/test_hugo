@@ -3,6 +3,10 @@
     <head>
         <meta charset="utf-8">
         <title>{{ .Title }}</title>
+        <style>
+{{ $style := resources.Get "style.sass" | resources.ToCSS }}
+{{ $style.Content }}
+        </style>
     </head>
     <body>
 

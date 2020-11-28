@@ -3,7 +3,8 @@ Minimal Hugo site
 
  - One page.
  - One layout.
- - Config.
+ - One SASS stylesheet.
+ - Minimal config.
 
 How to build it
 ---------------

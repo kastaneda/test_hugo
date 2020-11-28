@@ -5,3 +5,13 @@ disableKinds:
   - taxonomy
   - taxonomyTerm
   - sitemap
+
+defaultContentLanguage: en
+languages:
+  uk:
+    languageName: Українська
+  en:
+    languageName: English
+  ru:
+    languageName: Русский
+

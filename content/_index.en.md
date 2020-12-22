@@ -12,7 +12,7 @@ List of my fuckups
 ------------------
 
  1. White screen of death
- 2. ZgotmplZ
+ 2. `ZgotmplZ`
 
 
 List of my achievements

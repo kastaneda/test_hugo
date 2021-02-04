@@ -1,5 +1,6 @@
 ---
 title: Hello, world
+url: /index.en.html
 ---
 
 This is simple static site made with Markdown and some SSG engine, Hugo.

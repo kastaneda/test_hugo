@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Lang }}">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>{{ .Title }}</title>
@@ -12,12 +12,6 @@
 
 <h1>{{ .Title }}</h1>
 {{ .Content }}
-
-    <ul>
-{{ range $.Site.Home.AllTranslations }}
-      <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
-{{ end }}
-    </ul>
 
   </body>
 </html>

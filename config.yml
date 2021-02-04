@@ -8,11 +8,3 @@ disableKinds:
   - taxonomyTerm
   - sitemap
 
-defaultContentLanguage: en
-languages:
-  uk:
-    languageName: Українська
-  en:
-    languageName: English
-
-

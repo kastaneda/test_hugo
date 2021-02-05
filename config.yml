@@ -1,10 +1,8 @@
 ---
-
 disableHugoGeneratorInject: true
-
 disableKinds:
   - RSS
   - taxonomy
   - taxonomyTerm
   - sitemap
-
+uglyurls: true

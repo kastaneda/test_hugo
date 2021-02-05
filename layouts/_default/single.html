@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ .Title }}</title>
+    <style>
+{{ $style := resources.Get "style.sass" | resources.ToCSS | resources.Minify -}}
+{{ $style.Content | safeCSS }}
+    </style>
+  </head>
+  <body>
+
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+
+  </body>
+</html>

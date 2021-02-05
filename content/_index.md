@@ -1,29 +1,10 @@
 ---
-title: Hello, world
-url: /index.en.html
+title: Ще одна спроба приборкати Hugo
 ---
 
-This is simple static site made with Markdown and some SSG engine, Hugo.
+В мене щось не дуже виходить з Hugo. Але я відчуваю, що цей інструмент може бути вартим зусиль. Принаймні, вартий уваги.
 
-Okay, maybe I will not limit myself and do not stuck on bare minimum.
-Let's add some SASS.
+ * [Про цей сайт](about.html)
+ * [Мої контакти](contacts.html)
 
-
-List of my fuckups
-------------------
-
- 1. White screen of death
- 2. `ZgotmplZ`
-
-
-List of my achievements
------------------------
-
- 1. One Markdown file, one layout template, bare minimum reached
- 2. Read SASS, convert to CSS and embed it into the page
-
-
-Conclusion
-----------
-
-Wow, it's nice, after all.
+А далі треба якось вставити посилання на пости у блозі. FIXME.

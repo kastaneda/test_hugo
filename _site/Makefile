@@ -1,4 +1,0 @@
-build:
-	hugo
-
-.PHONY: build

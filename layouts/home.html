@@ -10,8 +10,22 @@
   </head>
   <body>
 
+<p>Page layout: <tt>layouts/home.html</tt></p>
+
 <h1>{{ .Title }}</h1>
 {{ .Content }}
+
+<ul>
+  {{ range $page := where .Site.RegularPages "Section" "in" .Site.Params.mainSections }}
+  <li>
+    <p>
+      {{ .Date.Format "Jan 2, 2006 03:04:05" }}<br>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </p>
+    {{ .Summary | markdownify }}
+  </li>
+  {{ end }}
+</ul>
 
   </body>
 </html>

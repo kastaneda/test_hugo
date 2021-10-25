@@ -5,9 +5,4 @@ disableKinds:
   - taxonomy
   - taxonomyTerm
   - sitemap
-uglyurls: true
-disablePathToLower: true
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
+# uglyurls: true

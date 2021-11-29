@@ -19,10 +19,10 @@
   {{ range $page := where .Site.RegularPages "Section" "in" .Site.Params.mainSections }}
   <li>
     <p>
-      {{ .Date.Format "Jan 2, 2006 03:04:05" }}<br>
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{ .Date.Format "2006-01-02 15:04:05" }}<br>
+      <a href="{{ .Permalink }}">{{ .Title }}</a><br>
+      {{ .Summary | markdownify }}
     </p>
-    {{ .Summary | markdownify }}
   </li>
   {{ end }}
 </ul>

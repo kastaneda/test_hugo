@@ -1,8 +1,11 @@
 Minimal Hugo site
 =================
 
- - One page.
- - One layout.
+ - Few pages:
+    - Home page;
+    - Few posts;
+    - Few 'regular' pages.
+ - Minimal set of layouts.
  - One SASS stylesheet.
  - Minimal config.
 
